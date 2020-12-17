@@ -53,9 +53,9 @@ $short = $get['shortenedUrl'];
 if($get['shortenedUrl']){
 bot('sendmessage', [
                 'chat_id' =>$chat_id,
-                'text'=>"<b>Thank you for using me☺
+                'text'=>"<b>Mera Use Karne Ke Liye Dhanyvaad...
 
-YOUR SHORTEN URL: </b> <code>$short</code>
+Aapka SHORTEN URL: </b> <code>$short</code>
 
 <b>LONG URL:</b> <code>$text</code>
 
